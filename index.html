@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>2d Game</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body onkeyup="key(event);" class="body">
+    <div id="b" class="b">
+
+        <p id="score" class="score">0</p>
+        <img id="boy" class="boy" src="Run (1).png" />
+
+    </div>
+
+    <div id="end" class="end">
+
+        <div>Game Over</div>
+        <div>Your Score</div>
+        <div id="endscore">0</div>
+
+        <button onclick="re();" class="btn">New Game</button>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
